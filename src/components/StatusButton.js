@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Categories = () => (
+const StatusButton = () => (
   <div>
     <button type="button" className="statusBtn">Check Status</button>
   </div>
