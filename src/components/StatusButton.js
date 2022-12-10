@@ -6,4 +6,4 @@ const StatusButton = () => (
   </div>
 );
 
-export default Categories;
+export default StatusButton;
