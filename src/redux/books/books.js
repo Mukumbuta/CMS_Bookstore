@@ -22,7 +22,7 @@ export const postBooks = createAsyncThunk(BOOK_ADDED, async (payload) => {
     method: 'POST',
     body: JSON.stringify(payload),
     headers: {
-      Content_Type: 'application/json; charset=UTF-8',
+      Content-Type: 'application/json; charset=UTF-8',
     },
   });
 
@@ -36,7 +36,7 @@ export const removeBook = createAsyncThunk(BOOK_REMOVED, async (id) => {
       item_id: id,
     }),
     headers: {
-      Content_Type: 'application/json; charset=UTF-8',
+      Content-Type: 'application/json; charset=UTF-8',
     },
   });
   return id;
