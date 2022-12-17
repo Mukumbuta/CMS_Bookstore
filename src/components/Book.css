@@ -58,7 +58,8 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
-  border-left: 2px solid gray;
+  border-left: 3px solid gray;
+  padding-left: 10px;
 }
 
 .third-div input {
