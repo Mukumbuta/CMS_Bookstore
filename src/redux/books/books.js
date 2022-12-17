@@ -32,6 +32,12 @@ export const postBooks = createAsyncThunk(BOOK_ADDED, async (payload) => {
 export const removeBook = createAsyncThunk(BOOK_REMOVED, async (id) => {
   await fetch(`${baseURL}/${id}`, {
     method: 'DELETE',
+    body: JSON.stringify({
+      item_id: id,
+    }),
+    headers: {
+      'Content_Type': 'application/json; charset=UTF-8',
+    },
   });
   return id;
 });
