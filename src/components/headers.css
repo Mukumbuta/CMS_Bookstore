@@ -13,6 +13,7 @@
   list-style: none;
   gap: 1.5rem;
   align-items: center;
+  height: 80px;
 }
 
 .nav h1 {
